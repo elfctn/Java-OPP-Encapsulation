@@ -1,5 +1,5 @@
 package org.example;
-
+//OZELLIKLI ENUM YAPISI OLUSTURMA. SABIT VE ILISKILI DEGERLER ICIN
 public enum Weapon {
     SWORD(50, 1.5),
     AXE(60, 1.2),
@@ -21,3 +21,4 @@ public enum Weapon {
         return attackSpeed;
     }
 }
+ //Enum sınıfı sabit türlerin davranışlarını ve özelliklerini modellemek için temiz ve güvenli bir yol
